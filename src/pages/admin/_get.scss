@@ -1,0 +1,42 @@
+.containeruser{
+    margin-top: 50px;
+}
+#busquedas{
+    background-color: #3cb371;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 6px;
+}
+
+#btnmaps{
+  background-color: #FF4500;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  width: 40%;
+  margin-top: 6px;
+}
+
+  #busquedas:hover {
+
+    background-color:#FF4500;
+    font-size: 20px;
+    transition: 1.2s;
+    font-weight: 400;
+  }
+
+  #busquedasnoticias{
+    background-color: #3cb371;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+  #busquedasnoticias:hover {
+
+    background-color:#FF4500;
+    font-size: 20px;
+    transition: 1.2s;
+    font-weight: 400;
+  }

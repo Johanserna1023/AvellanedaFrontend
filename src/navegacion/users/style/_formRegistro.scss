@@ -1,0 +1,95 @@
+.registro button {
+  background-color: #3cb371;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  margin-left: 15%;
+  width: 35%;
+  margin-top: 20px;
+}
+
+.message {
+  text-align: left;
+}
+
+#alert {
+  height: 60px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.containerReg {
+  margin-top: 50px;
+  width: 100%;
+  padding-top: 10px;
+}
+.containerReg form {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.containerRegadmin {
+  margin-top: 50px;
+  width: 100%;
+  padding-top: 27px;
+}
+.containerRegadmin form {
+  width: 70%;
+  margin-left: 15%;
+}
+.registro button:hover {
+  background-color: #ff4500;
+  font-size: 20px;
+  transition: 1.2s;
+  font-weight: 400;
+}
+
+.registro {
+  width: 60%;
+  margin-left: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.input {
+  border: 3px solid #b0c4de;
+  border-radius: 15px;
+}
+
+.input:hover {
+  background-color: $background-grey-lyght;
+  font-weight: 700;
+  transition: 0.4s;
+  border: 3px solid #b0c4de;
+  border-radius: 30px;
+}
+
+#buttonalert {
+  background-color: #3cb371;
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+#buttonalert:hover {
+  background-color: #ff4500;
+  font-size: 20px;
+  transition: 1.2s;
+  font-weight: 400;
+}
+
+#success {
+  border: 1px solid #84b84c;
+  background-color: #84b84c1f;
+}
+
+#error {
+  border: 1px solid #f00;
+  background-color: #ff00001f;
+}
+
+@media (max-width: 768px) {
+  #alert {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+  }
+}

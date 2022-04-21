@@ -1,0 +1,60 @@
+
+.divtable{
+  width: 100%;
+
+  padding-top: 60px;
+
+}
+
+.divtableuser{
+  width: 100%;
+}
+.divtable2{
+  width: 100%;
+}
+#tableusers{
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  
+}
+ .td{
+  vertical-align: middle;
+}
+
+#tdactualizar{
+  background-color: white;
+}
+#tdeliminar{
+  background-color: white;
+}
+#tableusers tbody tr:hover{
+  background-color:#708090;
+   .td{
+     color: white;
+   }
+
+}
+
+
+#tableusers thead tr:hover{
+  background-color:#708090;
+  th{
+    color: white;
+  }
+  
+}
+
+#btneditar{
+  background-color:#3cb371 ;
+}
+#btnactualizar{
+  background-color:#3cb371 ;
+}
+
+#btneliminar{
+  background-color: #FF4500;
+}
+#btncerrar{
+  background-color: #FF4500;
+}
